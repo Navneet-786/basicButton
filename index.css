@@ -9,6 +9,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 button {
   padding: 10px 30px;
@@ -20,4 +22,17 @@ button:hover {
   box-shadow: 5px 5px 10px black;
   scale: 0.98;
   transition: all 0.2s;
+}
+.input-section {
+  display: flex;
+  gap: 20px;
+}
+.input-section-diss {
+  display: none;
+}
+input {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: 1px solid black;
 }
